@@ -4,7 +4,7 @@
 
 #ifndef LAB03_UML_RELATIONSHIPS_BRAVO_UNIVERSIDAD_H
 #define LAB03_UML_RELATIONSHIPS_BRAVO_UNIVERSIDAD_H
-
+#include <list>
 //falta implementacion
 class universidad {
 

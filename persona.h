@@ -12,7 +12,7 @@ using namespace std;
 
 class Persona {
 private:
-    int id; // sigo insistiendo que sea string.
+    int id; //:)
     string Nombre;
 public:
     Persona(int id, const string &nombre);

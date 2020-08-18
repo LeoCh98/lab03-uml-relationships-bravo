@@ -13,7 +13,7 @@ Estudiante::~Estudiante() {
 string Estudiante::toString() {
     stringstream s;
     s<<Persona::toString();
-    s<<"El Grupo es: "<<"grupo"<<endl; // aqui solo se agrega a la variable de tipo grupo
+    s<<"El Grupo es: "<< "grupo"<< endl;
 
     return s.str();
 }

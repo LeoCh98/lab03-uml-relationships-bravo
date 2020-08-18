@@ -9,28 +9,17 @@
 #include <sstream>
 #include <iostream>
 #include "persona.h"
+
 using namespace std;
 class Estudiante:public Persona {
 
 private:
-    //Grupo grupo; //variable del grupo tambien se debe agregar al constructor.
-
-
-
+    //Grupo* grupo; //variable del grupo tambien se debe agregar al constructor.
 public:
     Estudiante(int id, const string &nombre);
-
-virtual string toString() override ;
-
-
-~Estudiante();
-
-
-
-
-
-
-
+    //void asignarGrupo(Grupo*);
+    virtual string toString() override ;
+    ~Estudiante();
 };
 
 
